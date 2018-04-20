@@ -10,10 +10,10 @@ exports.config = {
     // Spec patterns are relative to the configuration file location passed
     // to protractor.
     // They may include glob patterns.
-    specs: ['example-spec.js'],
+    specs: ['spec/spec1.e2e-spec.js'],
 
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {
-        showColors: true, // Use colors in the command line report.
+        showColors: true // Use colors in the command line report.
     }
 };
